@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:background="@drawable/imageregister"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/fname"
+        android:hint="Enter your first name"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"/>
+    <EditText
+        android:id="@+id/lname"
+        android:hint="Enter your last name"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"/>
+    <EditText
+        android:id="@+id/address"
+        android:hint="Enter your address"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"/>
+    <EditText
+        android:id="@+id/email"
+        android:hint="Enter your email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="15"/>
+    <EditText
+        android:id="@+id/password"
+        android:hint="Enter your password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/nid"
+        android:hint="Enter your nid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="15"/>
+    <Button
+        android:id="@+id/btnRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Registration" />
+
+</LinearLayout>

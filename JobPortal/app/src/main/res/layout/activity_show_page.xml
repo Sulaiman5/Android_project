@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="@color/teal_200"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tjobtitle"
+        android:layout_width="325dp"
+        android:textSize="30dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="35dp"
+        android:textSize="20dp"
+        android:text="Job Responsibilities"/>
+    <TextView
+        android:id="@+id/tresponsibilities"
+        android:layout_width="355dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="35dp"
+        android:textSize="20dp"
+        android:text="Educational Requirements"/>
+    <TextView
+        android:id="@+id/teducational"
+        android:layout_width="355dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="35dp"
+        android:textSize="20dp"
+        android:text="Experience Requirements" />
+    <TextView
+        android:id="@+id/texperience"
+        android:layout_width="355dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="35dp"
+        android:textSize="20dp"
+        android:text="Job perspective age"/>
+    <TextView
+        android:id="@+id/tage"
+        android:layout_width="355dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="35dp"
+        android:textSize="20dp"
+        android:text="Job perspective salary"/>
+    <TextView
+        android:id="@+id/tsalary"
+        android:layout_width="355dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="35dp"
+        android:textSize="20dp"
+        android:text="Job perspective location"/>
+    <TextView
+        android:id="@+id/tlocation"
+        android:layout_width="355dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnApply"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:text="Apply"
+        android:textSize="25dp"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="611dp" />
+</LinearLayout>

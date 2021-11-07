@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/congra348"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="354dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:textColorHighlight="@color/design_default_color_on_primary"
+        android:gravity="center"
+        android:text="Congratulations!"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="354dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:text="Your application has been submitted successfully." />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Interview date will be informed via SMS and Email." />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Interview date will be informed via SMS and Email." />
+</LinearLayout>
